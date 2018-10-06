@@ -1,0 +1,166 @@
+
+<html>
+<center><head><h3><u>MTC DATABASE SEARCH</u></h3></head></center>
+<style>
+select {
+    width: 5%;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 1px;
+}
+</style>
+
+<body bgcolor="#d2143a">
+
+<form name="view" action="next.php" method="POST">
+<font size="5" color="black"><u>Date :</u></font>
+<br><br>
+
+<font size="4" color="black">Day :</font>
+<select id="day" name="day">
+	<option value="0">ALL</option>
+    <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+	<option value="04">04</option>
+    <option value="05">05</option>
+    <option value="06">06</option>
+	<option value="07">07</option>
+	<option value="08">08</option>
+	<option value="09">09</option>
+	<option value="10">10</option>
+    <option value="11">11</option>
+	<option value="12">12</option>
+	<option value="13">13</option>
+    <option value="14">14</option>		
+    <option value="15">15</option>
+    <option value="16">16</option>	
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+    <option value="28">28</option>
+    <option value="29">29</option>
+    <option value="30">30</option>
+    <option value="31">31</option>	
+</select>
+
+<font size="4" color="black">Month :</font>
+<select id="month" name="month">
+	<option value="0">ALL</option>
+	<option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+	<option value="04">04</option>
+    <option value="05">05</option>
+    <option value="06">06</option>
+	<option value="07">07</option>
+	<option value="08">08</option>
+	<option value="09">09</option>
+	<option value="10">10</option>
+    <option value="11">11</option>
+	<option value="12">12</option>
+</select>
+
+
+<font size="4" color="black">Year :</font>
+<select id="year" name="year">
+	<option value="0">ALL</option>
+	<option value="2018">2018</option>
+</select>
+<br>
+<br>
+<br>
+
+<font size="5" color="black"><u>Time Interval :</u></font>
+<br>
+<br>
+
+<font size="4" color="black">From :</font>
+
+<select id="time" name="time">
+    <option value="24">ALL</option>
+    <option value="0">0-1</option>
+    <option value="1">1-2</option>
+    <option value="2">2-3</option>
+    <option value="3">3-4</option>
+    <option value="4">4-5</option>
+    <option value="5">5-6</option>
+    <option value="6">6-7</option>
+    <option value="7">7-8</option>
+    <option value="8">8-9</option>
+    <option value="9">9-10</option>
+   <option value="10">10-11</option>
+   <option value="11">11-12</option>
+   <option value="12">12-13</option>
+   <option value="13">13-14</option>		
+   <option value="14">14-15</option>
+   <option value="15">15-16</option>	
+   <option value="16">16-17</option>
+   <option value="17">17-18</option>
+   <option value="18">18-19</option>
+   <option value="19">19-20</option>
+   <option value="20">20-21</option>
+   <option value="21">21-22</option>
+   <option value="22">22-23</option>
+   <option value="23">23-24</option>
+</select>
+<br>
+<br>
+<br>
+
+
+<font size="5" color="black"><u>To Display :</u></font>
+<br>
+<br>
+
+<font size="4" color="black">Table For :</font>
+
+<select id="query" name="query" style="width: 400px;background-color: #C0C0C0;">
+    <option value="1">1) No. Of Buses and Trips Operated </option>
+    <option value="2">2) No. Of Buses and Trips Operated by Route & Service wise </option>
+    <option value="3">3) No. Of Passengers Travelled </option>
+    <option value="4">4) No. Of Passengers Travelled by Route & Service wise </option>
+    <option value="5">5) No. Of Passengers Travelled Trip wise in a Route </option>
+    <option value="6">6) No. Of Passengers Boarding from One Stage to Another </option>
+    <option value="7">7) Total Collection </option>
+    <option value="8">8) Total Collection Per Trip by Route & Denomination </option>
+</select>
+
+
+
+<br><br>
+<style>
+.button {
+    background-color: #0B980A; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,03,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
+<button class="button button2">DOWNLOAD RECORDS</button>
+</form>
+</body></html>
+
+
+
+
+
